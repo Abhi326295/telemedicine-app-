@@ -1,0 +1,65 @@
+/* src/assets/styles/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1em;
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.navbar-nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.home {
+  padding: 2em;
+  text-align: center;
+}
+
+.appointments, .medical-records {
+  padding: 2em;
+}
+
+.appointments ul, .medical-records ul {
+  list-style: none;
+  padding: 0;
+}
+
+.appointments li, .medical-records li {
+  background-color: #f9f9f9;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-bottom: 1em;
+}
